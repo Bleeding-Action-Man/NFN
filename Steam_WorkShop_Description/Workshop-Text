@@ -1,0 +1,67 @@
+NFN, also knowns as 'Nanu Fucking Nanu' is a custom GameType that is slightly modified to give hardcore players a more challenging gameplay
+
+[h1][b][u]Current Changes[/u][/b][/h1]
+
+- Crawlers become [b]GoreFast[/b]
+- Husks become Scrakes
+- Bloats become FleshPounds
+- Conifg to change starting cash
+
+[h1][b][u]Notes[/u][/b][/h1]
+
+- Mut/GameType is running on this server
+[code]
+open 217.182.197.134
+[/code]
+
+- For best gameplay results, it is recommended to use SetLoadout mutator, with the below Config
+[code]
+# Replace SRVet with KFVet if you don't have ServerPerks Installed
+# Replace the Musket/DLC Weapons with your own choice
+Weapons=(Perk="SRVetSharpshooter",WeaponsToDelete=("KFMod.Crossbow"),WeaponsToAdd=("KFMod.MK23Pistol","KFMod.GoldenDeagle","KFEnhancedMusket.EnhancedMusket","KFMod.M14EBRBattleRifle","KFMod.Winchester"))
+Weapons=(Perk="SRVetSupportSpec",WeaponsToDelete=(),WeaponsToAdd=("KFMod.GoldenDeagle","KFMod.GoldenKatana","KFMod.GoldenAA12AutoShotgun"))
+Weapons=(Perk="SRVetDemolitions",WeaponsToDelete=("KFMod.M79GrenadeLauncher"),WeaponsToAdd=("KFMod.NeonKrissMMedicGun","KFMod.LAW","KFMod.CamoM32GrenadeLauncher"))
+Weapons=(Perk="SRVetFieldMedic",WeaponsToDelete=("KFMod.MP7MMedicGun"),WeaponsToAdd=("KFMod.MK23Pistol","KFMod.GoldenKatana","KFMod.MP5MMedicGun","KFMod.NeonKrissMMedicGun"))
+Weapons=(Perk="SRVetCommando",WeaponsToDelete=("KFMod.AK47AssaultRifle"),WeaponsToAdd=("KFMod.PipeBombExplosive","KFMod.NeonSCARMK17AssaultRifle","KFMod.FNFAL_ACOG_AssaultRifle","KFMod.GoldenAK47AssaultRifle","KFMod.CamoM32GrenadeLauncher"))
+Weapons=(Perk="SRVetBerserker",WeaponsToDelete=("KFMod.Axe"),WeaponsToAdd=("KFMod.MK23Pistol","KFMod.GoldenDeagle","KFMod.DwarfAxe","KFMod.GoldenKatana","KFEnhancedMusket.EnhancedMusket","KFMod.Crossbuzzsaw"))
+[/code]
+
+- There's a chance for this GameType to grow with more features
+
+[h1][b][u]Number Of Files[/u][/b][/h1]
+
+- 3
+
+[h1][b][u]Sample Config[/u][/b][/h1]
+
+[code]
+[KFNFN.KFNFN]
+bDebug=False
+iStartingCash=5000
+[/code]
+
+[h1][b][u]File Names[/u][/b][/h1]
+
+- \System\KFNFN.u
+- \System\KFNFN.ucl
+- \System\NanuConfig.ini
+
+[h1][b][u]Usage[/u][/b][/h1]
+
+1- Subscribe or download manually (Recommended)
+2- Launch the game and wait to see 'Completed'
+3- Restart the game and you can see the mutators in your list
+
+[h1][b][u]Class Names[/u][/b][/h1]
+
+- Mut: KFNFN.KFNFN
+
+- GameType Name: KFNFN.NFNGameType
+
+[h1][b][u]Manual Download Links (Recommended)[/u][/b][/h1]
+
+You can find it under 'Whitelisted' folder named 'KF-NFN-v1.0'
+
+- MEGA Link: https://mega DOT nz/folder/YDoEmKiC#s6FGAtgh40-TvB4bHsLaMQ
+
+- Github: https://github.com/Vel-San/KF-NFN/releases/tag/v1.0r

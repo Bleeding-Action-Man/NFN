@@ -50,5 +50,5 @@ defaultproperties{
   // Mandatory Vars
 	GroupName = "KF-NFN"
   FriendlyName = "Nanu Fucking Nanu - v1.0"
-  Description = "Sick of lame HoE? NFN GameType is here for you! 'Ultra' difficulty will give you PTSD, NOT for the faint hearted ;) | Made by Vel-San"
+  Description = "Sick of lame HoE? NFN GameType is here for you! Not for the faint hearted ;D | Made by Vel-San, Tested & Optimized by Cronus & #Chief"
 }
