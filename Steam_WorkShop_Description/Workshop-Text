@@ -3,18 +3,23 @@ NFN, also knowns as 'Nanu Fucking Nanu' is a custom GameType that is slightly mo
 [h1][b][u]Current Changes[/u][/b][/h1]
 
 - Crawlers become [b]GoreFast[/b]
-- Husks become Scrakes
-- Bloats become FleshPounds
+- Husks become [b]Scrakes[/b]
+- Bloats become [b]FleshPounds[/b]
+- Clots are [b]Removed[/b]
 - Conifg to change starting cash
+
+Credits to [b]#Chief[/b] & [b]Cronus[/b] for helping out with initial testings!
 
 [h1][b][u]Notes[/u][/b][/h1]
 
 - Mut/GameType is running on this server
 [code]
 open 217.182.197.134
+
+[url=https://steamcommunity.com/groups/Nanu-Nanu]Engage with us / Group[/url]
 [/code]
 
-- For best gameplay results, it is recommended to use SetLoadout mutator, with the below Config
+- For best gameplay results, it is recommended to use SetLoadout mutator, with the below Config (25KF For all)
 [code]
 # Replace SRVet with KFVet if you don't have ServerPerks Installed
 # Replace the Musket/DLC Weapons with your own choice
@@ -25,6 +30,8 @@ Weapons=(Perk="SRVetFieldMedic",WeaponsToDelete=("KFMod.MP7MMedicGun"),WeaponsTo
 Weapons=(Perk="SRVetCommando",WeaponsToDelete=("KFMod.AK47AssaultRifle"),WeaponsToAdd=("KFMod.PipeBombExplosive","KFMod.NeonSCARMK17AssaultRifle","KFMod.FNFAL_ACOG_AssaultRifle","KFMod.GoldenAK47AssaultRifle","KFMod.CamoM32GrenadeLauncher"))
 Weapons=(Perk="SRVetBerserker",WeaponsToDelete=("KFMod.Axe"),WeaponsToAdd=("KFMod.MK23Pistol","KFMod.GoldenDeagle","KFMod.DwarfAxe","KFMod.GoldenKatana","KFEnhancedMusket.EnhancedMusket","KFMod.Crossbuzzsaw"))
 [/code]
+
+And use FakedPlus Mut
 
 - There's a chance for this GameType to grow with more features
 
@@ -60,8 +67,8 @@ iStartingCash=5000
 
 [h1][b][u]Manual Download Links (Recommended)[/u][/b][/h1]
 
-You can find it under 'Whitelisted' folder named 'KF-NFN-v1.0'
+You can find it under 'Whitelisted' folder named 'KF-NFN-v1.1'
 
 - MEGA Link: https://mega DOT nz/folder/YDoEmKiC#s6FGAtgh40-TvB4bHsLaMQ
 
-- Github: https://github.com/Vel-San/KF-NFN/releases/tag/v1.0r
+- Github: https://github.com/Vel-San/KF-NFN/releases/tag/v1.1
